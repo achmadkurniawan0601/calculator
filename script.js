@@ -1,4 +1,4 @@
-const numbers = document.querySelectorAll(".number");
+const number = document.querySelectorAll(".numbers");
 numbers.forEach((number)=>{
     number.addEventListener("click", (event)=>{
     console.log(event.target.value)
